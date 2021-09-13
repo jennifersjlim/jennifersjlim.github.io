@@ -1,0 +1,26 @@
+ *{   font-family:'Times New Roman', Times, serif;   margin:0px; }
+
+#topbar {
+    background:black;
+    padding: 5px;
+    font-size:12px;
+    text-transform:uppercase;
+  }
+  .icecream {
+    display: inline-block;
+  }
+  .icecream:hover{
+    background-color:thistle;
+  }
+  a{
+    display: block;
+    padding:10px;
+    color:white;
+    text-decoration:none;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
